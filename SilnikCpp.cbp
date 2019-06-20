@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SilnikCpp" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/kurs5" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="allegro-5.0.10-monolith-mt-debug" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/kurs5" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="NeverEngine.hpp" />
+		<Unit filename="data/characters/characterContoller.hpp" />
+		<Unit filename="data/configs.h" />
+		<Unit filename="data/inGameTime/inGameTime.hpp" />
+		<Unit filename="data/keyboard/keyboardController.hpp" />
+		<Unit filename="data/map/colliders/mapCollider.hpp" />
+		<Unit filename="data/map/map.hpp" />
+		<Unit filename="data/map/mapChunk.hpp" />
+		<Unit filename="data/map/mapObject.hpp" />
+		<Unit filename="data/menu/customMenus/escapeMenu.hpp" />
+		<Unit filename="data/menu/customMenus/optionMenu.hpp" />
+		<Unit filename="data/menu/keyboardMenu.hpp" />
+		<Unit filename="data/menu/menu.hpp" />
+		<Unit filename="data/mouse/mouseController.hpp" />
+		<Unit filename="data/scenes/sceneConfig.hpp" />
+		<Unit filename="data/screen/bitmapScaler.hpp" />
+		<Unit filename="data/screen/screenConfiguration.h" />
+		<Unit filename="data/screen/shadows/shadows.hpp" />
+		<Unit filename="data/sprites/animated_sprites/characterSprite.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

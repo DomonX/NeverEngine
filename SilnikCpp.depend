@@ -1,0 +1,192 @@
+# depslib dependency file v1.0
+1560708709 source:e:\programowanie\kurs5\main.cpp
+	<iostream>
+	<vector>
+	<sstream>
+	"NeverEngine.hpp"
+
+1560606999 e:\programowanie\kurs5\data\keyboard\keyboardcontroller.hpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1560613139 e:\programowanie\kurs5\data\menu\custommenus\escapemenu.hpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	"../keyboardMenu.hpp"
+	"../../scenes/sceneConfig.hpp"
+	"optionMenu.hpp"
+
+1560613177 e:\programowanie\kurs5\data\menu\keyboardmenu.hpp
+	<allegro5/allegro.h>
+	"menu.hpp"
+	"../keyboard/keyboardController.hpp"
+
+1560695557 e:\programowanie\kurs5\data\menu\menu.hpp
+	<vector>
+
+1560606960 e:\programowanie\kurs5\data\scenes\sceneconfig.hpp
+
+1560695980 e:\programowanie\kurs5\data\menu\custommenus\optionmenu.hpp
+	<allegro5/allegro.h>
+	<vector>
+	<string>
+	"../../configs.h"
+
+1560695986 e:\programowanie\kurs5\data\screen\screenconfiguration.h
+	<allegro5/allegro.h>
+
+1560688815 e:\programowanie\kurs5\data\sprites\animated_sprites\charactersprite.h
+	<allegro5/allegro.h>
+	<allegro5/bitmap.h>
+
+1560630657 e:\programowanie\kurs5\data\characters\charactercontoller.hpp
+	<allegro5/allegro.h>
+	"../sprites/animated_sprites/characterSprite.h"
+	"../keyboard/keyboardController.hpp"
+	"../screen/bitmapScaler.hpp"
+	<vector>
+
+1560691568 e:\programowanie\kurs5\data\screen\bitmapscaler.hpp
+	<allegro5/allegro.h>
+
+1560633535 e:\programowanie\kurs5\data\mouse\mousecontroller.hpp
+	"../screen/bitmapScaler.hpp"
+
+1560708742 e:\programowanie\kurs5\data\ingametime\ingametime.hpp
+	<cmath>
+
+1560697057 e:\programowanie\kurs5\data\screen\shadows\shadows.hpp
+	<allegro5/allegro.h>
+
+1560709643 e:\programowanie\kurs5\data\map\map.hpp
+	<vector>
+	"allegro5/allegro.h"
+	"../screen/shadows/shadows.hpp"
+	"colliders/mapCollider.hpp"
+
+1560689169 e:\programowanie\kurs5\data\map\colliders\mapcollider.hpp
+
+1560691775 e:\programowanie\kurs5\neverengine.hpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	"data/keyboard/keyboardController.hpp"
+	"data/menu/customMenus/escapeMenu.hpp"
+	"data/scenes/sceneConfig.hpp"
+	"data/screen/screenConfiguration.h"
+	"data/sprites/animated_sprites/characterSprite.h"
+	"data/characters/characterContoller.hpp"
+	"data/screen/bitmapScaler.hpp"
+	"data/mouse/mouseController.hpp"
+	"data/inGameTime/inGameTime.hpp"
+	"data/screen/shadows/shadows.hpp"
+	"data/map/map.hpp"
+	"data/configs.h"
+
+1560692311 e:\programowanie\kurs5\data\configs.h
+	<vector>
+	"screen/screenConfiguration.h"
+
+1560804995 source:e:\programowanie\silnik 2.0\main.cpp
+	<iostream>
+	<vector>
+	<sstream>
+	"NeverEngine.hpp"
+
+1560763250 e:\programowanie\silnik 2.0\neverengine.hpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<allegro5/allegro_primitives.h>
+	"data/keyboard/keyboardController.hpp"
+	"data/menu/customMenus/escapeMenu.hpp"
+	"data/scenes/sceneConfig.hpp"
+	"data/screen/screenConfiguration.h"
+	"data/sprites/animated_sprites/characterSprite.h"
+	"data/characters/characterContoller.hpp"
+	"data/screen/bitmapScaler.hpp"
+	"data/mouse/mouseController.hpp"
+	"data/inGameTime/inGameTime.hpp"
+	"data/screen/shadows/shadows.hpp"
+	"data/map/map.hpp"
+	"data/configs.h"
+	"data/map/mapChunk.hpp"
+	"data/map/mapObject.hpp"
+	"data/map/colliders/mapCollider.hpp"
+
+1560606999 e:\programowanie\silnik 2.0\data\keyboard\keyboardcontroller.hpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+
+1560613139 e:\programowanie\silnik 2.0\data\menu\custommenus\escapemenu.hpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	"../keyboardMenu.hpp"
+	"../../scenes/sceneConfig.hpp"
+	"optionMenu.hpp"
+
+1560761283 e:\programowanie\silnik 2.0\data\menu\keyboardmenu.hpp
+	<allegro5/allegro.h>
+	"menu.hpp"
+	"../keyboard/keyboardController.hpp"
+
+1560695557 e:\programowanie\silnik 2.0\data\menu\menu.hpp
+	<vector>
+
+1560606960 e:\programowanie\silnik 2.0\data\scenes\sceneconfig.hpp
+
+1560695980 e:\programowanie\silnik 2.0\data\menu\custommenus\optionmenu.hpp
+	<allegro5/allegro.h>
+	<vector>
+	<string>
+	"../../configs.h"
+
+1560692311 e:\programowanie\silnik 2.0\data\configs.h
+	<vector>
+	"screen/screenConfiguration.h"
+
+1560695986 e:\programowanie\silnik 2.0\data\screen\screenconfiguration.h
+	<allegro5/allegro.h>
+
+1560688815 e:\programowanie\silnik 2.0\data\sprites\animated_sprites\charactersprite.h
+	<allegro5/allegro.h>
+	<allegro5/bitmap.h>
+
+1560764351 e:\programowanie\silnik 2.0\data\characters\charactercontoller.hpp
+	<allegro5/allegro.h>
+	"../sprites/animated_sprites/characterSprite.h"
+	"../keyboard/keyboardController.hpp"
+	"../screen/bitmapScaler.hpp"
+	<vector>
+	"../map/colliders/mapCollider.hpp"
+
+1560691568 e:\programowanie\silnik 2.0\data\screen\bitmapscaler.hpp
+	<allegro5/allegro.h>
+
+1560633535 e:\programowanie\silnik 2.0\data\mouse\mousecontroller.hpp
+	"../screen/bitmapScaler.hpp"
+
+1560719427 e:\programowanie\silnik 2.0\data\ingametime\ingametime.hpp
+	<cmath>
+
+1560765204 e:\programowanie\silnik 2.0\data\screen\shadows\shadows.hpp
+	<allegro5/allegro.h>
+
+1560764106 e:\programowanie\silnik 2.0\data\map\map.hpp
+	<vector>
+	"allegro5/allegro.h"
+	"../screen/shadows/shadows.hpp"
+	"colliders/mapCollider.hpp"
+	"mapChunk.hpp"
+	"../characters/characterContoller.hpp"
+
+1560762736 e:\programowanie\silnik 2.0\data\map\colliders\mapcollider.hpp
+
+1560761045 e:\programowanie\silnik 2.0\data\map\mapchunk.hpp
+	"mapObject.hpp"
+	"../inGameTime/inGameTime.hpp"
+
+1560760205 e:\programowanie\silnik 2.0\data\map\mapobject.hpp
+
